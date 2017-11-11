@@ -3,6 +3,7 @@
 # Cache Images
 ExpiresByType image/jpeg "access plus 2592000 seconds"
 ExpiresByType image/png "access plus 2592000 seconds"
+ExpiresByType image/jpg "access plus 2592000 seconds"
 
 # Cache other content types (Flash, CSS, JS, HTML, XML)
 ExpiresByType application/x-shockwave-flash "access plus 2592000 seconds"
